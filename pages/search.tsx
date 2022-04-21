@@ -11,7 +11,7 @@ function Search(){
     // format start and end dates 
     const formattedStartDate = format(new Date(startDate), "dd MMMM yy"); 
     const formattedEndDate = format(new Date(endDate), "dd MMMM yy"); 
-    const range = `${formattedStartDate} - ${formattedEndDate}`
+    const range = `${formattedStartDate} - ${formattedEndDate}`; 
 
     console.log(noOfGuests)
 
